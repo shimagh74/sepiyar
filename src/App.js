@@ -12,32 +12,33 @@ import Reviews from './pages/Reviews';
 import Treatments from './pages/Treatments';
 import NotFound from './pages/NotFound';
 import Footer from '../src/components/footer/footer'
-import { BrowserRouter as Router, Route, Routes, useRoutes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useRoutes, createHashRouter, RouterProvider ,  } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Masterpage from "./layout";
 
-const AppRoute = [
-  {path : "/" , element : <Masterpage/> , children  :[
+const router = createHashRouter([
+  {path : "/" , element : <Masterpage/> ,
+    errorElement: <NotFound/>,
+     children  :[
     {index : true , element : <Home/>},
-    {path  :"/About"  , element : <About/>},
-    {path  :"/ContactUs"  , element : <ContactUs/>},
-    {path  :"/EyebrowTattooCare"  , element : <EyebrowTattooCare/>},
-    {path  :"/EyeLinerTattooCare"  , element : <EyeLinerTattooCare/>},
-    {path  :"/LipTattooCare"  , element : <LipTattooCare/>},
-    {path  :"/Faqs"  , element : <FaqsView/>},
-    {path  :"/Policies"  , element : <Policies/>},
-    {path  :"/Reviews"  , element : <Reviews/>},
-    {path  :"/Treatments"  , element : <Treatments/>},
+    {path  :"About"  , element : <About/>},
+    {path  :"ContactUs"  , element : <ContactUs/>},
+    {path  :"EyebrowTattooCare"  , element : <EyebrowTattooCare/>},
+    {path  :"EyeLinerTattooCare"  , element : <EyeLinerTattooCare/>},
+    {path  :"LipTattooCare"  , element : <LipTattooCare/>},
+    {path  :"Faqs"  , element : <FaqsView/>},
+    {path  :"Policies"  , element : <Policies/>},
+    {path  :"Reviews"  , element : <Reviews/>},
+    {path  :"Treatments"  , element : <Treatments/>},
   ]},
-  {path  :"*"  , element : <NotFound/>},
-]
+])
+
+
 
 function App() {
-  const routes = useRoutes(AppRoute)
+  
   return (
-    <>
-    {routes}
-    </>
+    <RouterProvider router={router}/>
   );
 }
 
