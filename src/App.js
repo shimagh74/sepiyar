@@ -11,9 +11,7 @@ import Policies from './pages/Policies';
 import Reviews from './pages/Reviews';
 import Treatments from './pages/Treatments';
 import NotFound from './pages/NotFound';
-import Footer from '../src/components/footer/footer'
-import { BrowserRouter as Router, Route, Routes, useRoutes, createHashRouter, RouterProvider, createBrowserRouter ,  } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
+import {  RouterProvider, createBrowserRouter ,  } from 'react-router-dom';
 import Masterpage from "./layout";
 
 const router = createBrowserRouter([
