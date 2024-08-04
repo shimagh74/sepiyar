@@ -76,7 +76,7 @@ const ContactUs = () => {
             </div>
             <div className="inline-flex space-x-2 items-center  leading-6">
               <TfiLocationPin className="text-2xl" />
-              <span>Cheltenham, Melbourne, VIC</span>
+              <span>113 Charman Road Beaumaris VIC 3193</span>
             </div>
 
             <div className="flex items-center text-3xl">
