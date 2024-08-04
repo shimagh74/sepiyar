@@ -25,19 +25,14 @@ function Slider({ slides }) {
         {slides.map((s, index) => (
           <>
             <img src={s} alt={`slide-${index}`} className="w-full" />
-            {index === 0 && current === 0 && (
-              <div className="absolute top-10 lg:top-28 md:top-20 md:left-14 left-8 w-full flex justify-start">
-                <p className=" text-[#7e6048]   text-xs sm:text-base md:text-xl lg:text-3xl font-bold p-4">
-                  The art of creating hyper-realistic, <br /> ultra-natural
-                  cosmetic tattoos
-                </p>
-              </div>
-            )}
+            {/* {index === 0 && current === 0 && (
+              
+            )} */}
           </>
         ))}
       </div>
 
-      <div className="absolute top-0 h-full w-full justify-between items-center flex text-gray-400 px-10 text-3xl">
+      <div className="absolute top-0 h-full w-full justify-between items-center flex text-gray-400 px-4 text-3xl">
         <button onClick={previousSlide}>
           <BsFillArrowLeftCircleFill />
         </button>

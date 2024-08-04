@@ -12,16 +12,20 @@ const Question = ({ question }) => {
     }
 
     return (
-        <article onClick={toggleShow} className='pr-2'>
-            <div className='grid grid-cols-12 bg-primary px-5'>
-                <h3 className='col-span-11 font-workSans font-bold py-3  text-base cursor-pointer hover:text-Grayish-purple'>{question.question}</h3>
+        <article  >
+            <div onClick={toggleShow} className='grid grid-cols-12 bg-primary px-3 rounded-md shadow-md'>
+                <h3 className='col-span-11 font-workSans font-semibold py-3  text-base cursor-pointer hover:text-Grayish-purple'>{question.question}</h3>
                 <button className='col-span-1 place-self-center' >
                     {
                         isShowingFaq ? <FaAngleUp /> : <FaAngleDown />
                     }
                 </button>
             </div>
-            {isShowingFaq && <p className='font-workSans font-normal text-sm text-left lg:text-lg'>{question.answer}</p>}
+            <div 
+                className={`transition-all duration-300 overflow-hidden ${isShowingFaq ? 'max-h-[500px] p-4' : 'max-h-0 p-0'}`}
+            >
+                <p className='text-sm lg:text-lg'>{question.answer}</p>
+            </div>
         </article>
     );
 };

@@ -28,7 +28,7 @@ const EyeLinerTattooCare = () => {
             <h2 className="md:text-3xl text-xl font-semibold mb-8 text-black">
               Eyeliner Tattoo Pre + Post Care
             </h2>
-            <p className="text-base leading-loose text-gray-800 ">
+            <p className="text-base leading-loose lora-font text-gray-800 ">
               It is strongly advised to adhere to SEPIYAR's Pre & Post Care
               instructions to optimize the outcome and durability of your
               tattoo. Please note, that these guidelines serve as a general

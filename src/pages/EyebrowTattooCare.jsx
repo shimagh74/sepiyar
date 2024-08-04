@@ -15,10 +15,10 @@ const EyebrowTattooCare = () => {
       <div className="flex flex-col-reverse md:mx-12 my-8 lg:flex-row flex-wrap items-start">
         <div className="w-full lg:w-3/5 pr-4 my-8 lg:mb-0">
           <div className="mb-6 p-8 ">
-            <h2 className="md:text-3xl text-xl font-semibold mb-8 text-black">
+            <h2 className="md:text-3xl  text-xl font-semibold mb-8 text-black">
               Eyebrows Tattoo Pre + Post Care
             </h2>
-            <p className="text-base leading-loose text-gray-800 ">
+            <p className="text-base leading-loose text-gray-800 lora-font">
               Ensuring optimal results and the lasting beauty of your cosmetic
               tattoo requires following Sepi Yar's recommended pre + post-care
               instructions diligently. Please note that individual skin

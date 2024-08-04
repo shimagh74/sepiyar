@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div >
-      <div className="h-12  bg-primary px-20 text-black text-4xl justify-between flex items-center font-display ">
+      <div className="h-12  bg-primary px-4 md:px-20 text-black text-4xl justify-between flex items-center font-display ">
         <div>
           <h2 className="text-sm">Info@sepiyar.com | AU: +61 488 103 982</h2>
         </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="md:block border-b-[1px] justify-around flex items-center px-5 md:px-0">
-        <div className="md:h-18 bg-white h-16 text-sm  w-full  md:justify-center flex  mx-auto py-3">
+        <div className="h-12 bg-white md:h-24   w-full  md:justify-center flex  mx-auto py-1">
           <img src={whiteLogo}  alt="Logo"/>
         </div>
         <div className="header">

@@ -81,7 +81,7 @@ const ContactUs = () => {
 
             <div className="flex items-center text-3xl">
               <a
-                href="/"
+                href="https://www.facebook.com/profile.php?id=61560770701944"
                 className="p-2 cursor-pointer inline-flex items-center
         rounded-full bg-primary text-black mx-1.5 text-xl hover:translate-y-1
         duration-300 "
@@ -89,7 +89,7 @@ const ContactUs = () => {
                 <FaFacebookSquare />
               </a>
               <a
-                href="/"
+                href="https://www.instagram.com/sepiyar.aesthetics/"
                 className="p-2  inline-flex items-center
         rounded-full bg-primary text-black mx-1.5 text-xl hover:translate-y-1
         duration-300"

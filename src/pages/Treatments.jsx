@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowsData, BrowsLashesData, EyesData, LipsData } from "../data/ServicesData";
-import Services from "../components/Services";
+import TreatmentsCard from "../components/TreatmentsCard";
 import ServicesPriceCard from "../components/servicesPriceCard";
 
 const treatmentItems = [
   { title: "Brows & Lashes", data: BrowsLashesData },
-  { title: "Brows", data: BrowsData },
-  { title: "Eyes", data: EyesData },
-  { title: "Lips", data: LipsData },
+  { title: "Brows TATTOO", data: BrowsData },
+  { title: "Eyes TATTOO", data: EyesData },
+  { title: "Lips TATTOO", data: LipsData },
 ];
 
 const Treatments = () => {
@@ -20,9 +20,9 @@ const Treatments = () => {
           <h4 className="text-2xl justify-center flex mb-8 m-auto bg-secondary p-2">
             {item.title}
           </h4>
-          <div className="flex flex-wrap gap-1 justify-center">
+          <div className="flex flex-wrap md:p-0 p-3 gap-1 justify-center">
             {item.data.map((x) => (
-              <Services
+              <TreatmentsCard
                 key={x.id}
                 Image={x.Image}
                 title={x.title}

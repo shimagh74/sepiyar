@@ -47,12 +47,12 @@ const Gallery = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 cursor-pointer ">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {images.map((image, index) => (
           <div
             key={index}
-            className={`relative overflow-hidden border shadow-lg transform transition-all  duration-300 ease-in-out ${
+            className={`relative overflow-hidden border shadow-lg transform transition-all rounded-xl  duration-300 ease-in-out   ${
               hoveredIndex === index ? "scale-105 z-10" : ""
             }`}
             onMouseEnter={() => setHoveredIndex(index)}
@@ -62,14 +62,14 @@ const Gallery = () => {
                 hoveredIndex !== null && hoveredIndex !== index ? 0.5 : 1,
             }}
           >
-            <a href={image.link} target="_blank" rel="noopener noreferrer">
+            <a href={image.link} target="_blank" rel="noopener noreferrer" >
               <img
                 src={image.src}
                 alt={`Gallery image ${index + 1}`}
-                className="w-full h-64 object-cover"
+                className="w-full h-64 object-cover "
               />
             </a>
-            <div className="absolute inset-0 bg-black bg-opacity-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out flex items-center justify-center"></div>
+            {/* <div className="absolute inset-0 bg-black bg-opacity-0 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out flex items-center justify-center"></div> */}
           </div>
         ))}
       </div>

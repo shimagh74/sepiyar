@@ -12,7 +12,7 @@ const FaqsView = () => {
 
     return (
         <div className='min-h-screen relative'>
-            <div className='bg-White rounded-md shadow-2xl px-5 lg:px-10 top-2 z-50 w-[90%] mx-auto'>
+            <div className='bg-White rounded-md shadow-2xl px-4 top-2 z-50 w-[90%] mx-auto'>
                 <div className='flex gap-2 lg:gap-4 my-5 items-center justify-center'>
                     <h2 className='text-3xl lg:text-5xl'>FAQs</h2>
                 </div>

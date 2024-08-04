@@ -1,11 +1,12 @@
-import BROWSLASHES from "../assets/img/BROWS&LASHES.PNG";
-import BROWSCOSMETICTATTOO from "../assets/img/BROWSCOSMETICTATTOO.PNG";
+import BROWSLASHES from "../assets/img/BROWS&LASHES.jpg";
+import BROWSCOSMETICTATTOO from "../assets/img/BROWSCOSMETICTATTOO.jpg";
 import EYESCOSMETICTATTOO from "../assets/img/EYESCOSMETICTATTOO.JPEG";
 import LIPSCOSMETICTATTOO from "../assets/img/LIPSCOSMETICTATTOO.JPEG";
 import BrowSculp from "../assets/img/treatments/BrowSculp.JPEG";
 import Browlamination from "../assets/img/treatments/Browlamination.JPEG";
 import Lashlift from "../assets/img/treatments/Lashlift.JPEG";
 import Microblading from "../assets/img/treatments/microblading.JPEG";
+import Combination from "../assets/img/treatments/Combinationbrows.JPEG";
 import Ombrebrows from "../assets/img/treatments/Ombrebrows.JPEG";
 import Nanobrows from "../assets/img/treatments/Nanobrows.JPEG";
 import LashEnhancement from "../assets/img/treatments/LashEnhancement.JPEG";
@@ -31,7 +32,7 @@ export const ServicesData = [
     id: 2,
     title: "BROWS COSMETIC TATTOO",
     description:
-      "SEPIYAR is recognized for creating natural eyebrows and hyper-realistic cosmetic tattoos. Their eyebrow techniques mimic lifelike brows with hairlike strokes to redefine shape, fill in sparseness, and build density, or create a powdered look as if wearing a brow pencil or powder.",
+      "SEPIYAR is renowned for natural-looking eyebrows and hyper-realistic cosmetic tattoos. Their techniques use hairlike strokes to reshape, fill in, and add density to brows, or create a powdered look resembling brow pencil or powder.",
     Image: BROWSCOSMETICTATTOO,
     time: "",
     subtitle: [
@@ -178,7 +179,7 @@ export const BrowsData = [
   {
     id: 4,
     title: "Combination Brows",
-    Image: Microblading,
+    Image: Combination,
     time: "2.5 Hrs",
     cost: "$490",
     description:
@@ -211,7 +212,7 @@ export const EyesData = [
     time: "2 Hrs",
     cost: "$390",
     description:
-      "Permanent makeup eyeliner is a cosmetic technique where pigments are tattooed onto the eyelid to create the look of eyeliner. This enhances the eyes by defining the lash line, making them appear larger and more defined, while eliminating the need for daily eyeliner application. The pigment is implanted into the dermal layer using specialized equipment, with effects lasting several years and touch-ups needed for maintenance. The thickness, color, and style can be customized based on individual preferences and facial features.",
+      "Permanent makeup eyeliner is a cosmetic technique where pigments are tattooed onto the eyelid to create the look of eyeliner. It enhances the eyes by defining the lash line, making them appear larger, and eliminates the need for daily eyeliner application. The pigment is implanted into the dermal layer, lasting several years with touch-ups needed for maintenance. Thickness, color, and style can be customized based on individual preferences.",
   },
   {
     id: 3,
@@ -220,7 +221,7 @@ export const EyesData = [
     time: "3 Hrs",
     cost: "$490",
     description:
-      "Classic Eyeliner with a thick line and long tail is a dramatic and timeless makeup style. It involves applying a bold, thick line along the upper lash line, extending into a tapered tail at the outer corner. This glamorous look accentuates the eyes, making them appear larger and more expressive. Favored for its ability to create a statement without overpowering natural features, this classic eyeliner style suits various occasions and makeup preferences, ensuring an elegant appearance.",
+      "Classic Eyeliner with a thick line and long tail is a dramatic, timeless makeup style. It features a bold line along the upper lash line, extending into a tapered tail, accentuating the eyes for a larger, more expressive look. This glamorous style creates a statement without overpowering natural features, suiting various occasions and makeup preferences for an elegant appearance.",
   },
   {
     id: 4,
@@ -240,7 +241,7 @@ export const LipsData = [
     time: "3 Hrs",
     cost: "$450",
     description:
-      "Lip blush is a cosmetic tattooing technique that enhances the shape, color, and definition of the lips, providing a semi-permanent alternative to daily makeup. This procedure deposits pigment into the outer layers of the lips, creating a soft, natural-looking tint. It subtly defines the lip contour, mimicking the effect of lipstick or creating a delicate, stained look. Customizable for individual preferences, lip blush tattoos can achieve a pronounced or subtle finish, with results lasting 2 to 4 years before needing a touch-up.",
+      "Lip blush is a cosmetic tattooing technique that enhances the shape, color, and definition of the lips, providing a semi-permanent alternative to daily makeup. This procedure deposits pigment into the outer lip layers, creating a soft, natural-looking tint. It subtly defines the lip contour, mimicking lipstick or a delicate stain. Customizable for individual preferences, lip blush tattoos can achieve a pronounced or subtle finish, lasting 2 to 4 years before needing a touch-up.",
   },
   {
     id: 2,

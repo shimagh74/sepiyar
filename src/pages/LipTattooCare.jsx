@@ -29,7 +29,7 @@ const LipTattooCare = () => {
             <h2 className="md:text-3xl text-xl font-semibold mb-8 text-black">
               Lips Tattoo Pre + Post Care
             </h2>
-            <p className="text-base leading-loose text-gray-800 ">
+            <p className="text-base lora-font leading-loose text-gray-800 ">
               It is strongly advised to adhere to SEPIYAR's Pre & Post Care
               instructions to maximize the effectiveness and durability of your
               tattoo. Please note that these guidelines serve as general advice.

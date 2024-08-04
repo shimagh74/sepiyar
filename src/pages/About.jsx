@@ -15,10 +15,10 @@ const About = () => {
         </div>
         <div className="lg:w-1/2 w-full bg-white p-8 rounded-lg shadow-lg">
           <h2 className="text-4xl font-bold mb-4 text-gray-900"> Sepi Yar</h2>
-          <p className="text-lg font-semibold mb-4 text-gray-500">
+          <p className="text-lg font-semibold mb-4 text-gray-500 lora-font">
             COSMETIC TATTOO ARTIST | INTERNATIONAL TRAINER
           </p>
-          <p className="text-base leading-7 mb-4 text-gray-700">
+          <p className="text-base leading-7 mb-4 text-gray-700 lora-font">
             Meet SEPIYAR, a friendly and exceptionally talented beautician whose
             unique background and passion for beauty set her apart in the
             industry. Inspired by her mother’s deep roots in the beauty world,
@@ -27,7 +27,7 @@ const About = () => {
             confident. As an award-winning painter, Sepi brings a keen eye for
             detail, color, and composition to every cosmetic tattoo she creates.{" "}
           </p>
-          <p className="text-base leading-7 text-gray-700">
+          <p className="text-base leading-7 text-gray-700 lora-font">
             Her artistic journey has honed her ability to design bespoke
             treatments that are not only visually stunning but also perfectly
             tailored to enhance each client’s unique facial features. Whether
@@ -36,7 +36,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="mt-16 text-base leading-7 text-gray-700 space-y-4">
+      <div className="mt-16 text-base font-medium leading-7 text-gray-700 space-y-4">
         <p>
         Adding to her artistic prowess, Sepi holds a master’s degree in developmental biology and has
 published three ISI articles in the field. This scientific expertise provides her with an in-depth
