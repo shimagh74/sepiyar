@@ -29,7 +29,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-      <div className="md:block border-b-[1px] justify-around flex items-center px-5 md:px-0">
+      <div className="md:block border-b-[1px] justify-around flex items-center px-5 md:px-0 ">
         <div className="h-12 bg-white md:h-24   w-full  md:justify-center flex  mx-auto py-1">
           <img src={whiteLogo}  alt="Logo"/>
         </div>

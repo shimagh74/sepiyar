@@ -45,7 +45,7 @@ const EyeLinerTattooCare = () => {
             </p>
           </div>
         </div>
-        <div className="w-full lg:w-2/5 pl-4 md:my-8 lg:mb-0">
+        <div className="w-full lg:w-2/5 p-4 md:p-0 md:pl-4 md:my-8 lg:mb-0">
           <img
             src={photoUrl}
             alt="Skincare"
