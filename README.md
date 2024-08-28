@@ -21,11 +21,14 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/shimagh74/sepiyar
 2. Navigate to the project directory:
+   ```bash
    cd sepiyar
-3. Install the dependencies:
+4. Install the dependencies:
+   ```bash
    npm install
-4. Start the development server:
+6. Start the development server:
+   ```bash
    npm start
-   The site will be available at http://localhost:3000.
+The site will be available at http://localhost:3000.
  Contributing
 We welcome contributions to the project! Feel free to open an issue or submit a pull request if you have any improvements or suggestions.
